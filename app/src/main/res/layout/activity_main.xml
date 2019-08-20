@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mj"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <ImageView
+           android:id="@+id/img_view"
+           android:src="@drawable/mesjid"
+           android:layout_gravity="center"
+           android:scaleType="fitXY"
+           android:layout_width="400dp"
+           android:layout_height="250dp" />
+
+       <Button
+           android:id="@+id/btn_produk_halal"
+           android:text="Produk Halal"
+           android:textStyle="bold"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <Button
+           android:id="@+id/btn_jadwal_shalat"
+           android:text="Jadwal Shalat"
+           android:textStyle="bold"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <Button
+           android:id="@+id/btn_doa_harian"
+           android:text="Doa Harian"
+           android:textStyle="bold"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
